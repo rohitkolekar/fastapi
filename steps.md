@@ -5,7 +5,8 @@
 2. Publish Local 
 3. Verify 
 4. Publish to render 
-5. Document all steps 
+5. Publish on azure 
+6. Document all steps 
 
 
 ## Step 1 Create virtual environment using command prompt and activate 
@@ -60,3 +61,14 @@ app is the FastAPI object
 http://127.0.0.1:8000/
 
 
+## Step 6 Use swagger to view and test all API
+http://127.0.0.1:8000/docs
+
+## Step 8 Publish to Github
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/rohitkolekar/fastapi.git
+git push -u origin master
+
+## Step 9 publish on render 
